@@ -97,7 +97,8 @@ var editTask=function(){
         editInput.value=label.innerText;
         editBtn.innerText="Save";
     }
-
+  
+    
     //toggle .editmode on the parent.
     listItem.classList.toggle("editMode");
 };
